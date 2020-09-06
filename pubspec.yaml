@@ -1,0 +1,36 @@
+name: beldr
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+  provider: ^4.3.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - Assets/photos/inside.png
+    - Assets/photos/outside.png
+
+  fonts:
+    - family: lobster
+      fonts:
+        - asset: Assets/fonts/Lobster-Regular.ttf
+    - family: roboto
+      fonts:
+        - asset: Assets/fonts/Roboto-Regular.ttf
+
+
